@@ -1,0 +1,11 @@
+Build a program that writes one 1024x1024 image summing up world news of
+Wednesday 25 November 2026: a dense newspaper front page with a giant serif
+date masthead, a UTC timeline, a numbers strip, 3 lead story cards and 10
+smaller cards (each with a small flat illustration drawn in code that
+carries a fact), a world map with numbered pins, 23 more stories as
+one-liners, and a DATE CHECK box naming stories left out because they broke
+on another day. 36 verified stories from 25 November only, 7 regions,
+confidence badge with source on every card. Everything drawn in code with
+Pillow; the runner (main.py, standard library only) verifies the bundled
+entry.png by SHA-256 and copies it to /output/entry.png. Deterministic:
+running it twice produces byte-identical output.
